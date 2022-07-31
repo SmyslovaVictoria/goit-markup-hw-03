@@ -94,6 +94,7 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #D9D9D9;;
 }
 
 /* Text and Font for Site-Nav/Auth-nav */
@@ -102,6 +103,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  
 }
 
 /* Site-Nav */
@@ -401,7 +403,6 @@ margin-left: 30px;
 .conteiner-portfolio {
   border-top: 1px solid #D9D9D9;
 }
-
 
 
 
