@@ -404,6 +404,11 @@ margin-left: 30px;
   border-top: 1px solid #D9D9D9;
 }
 
+.content-titel, .content-text {
+  border-left: 1px solid #D9D9D9;
+  border-right: 1px solid #D9D9D9;
+}
 
-
-
+.content-text {
+  border-bottom: 1px solid #D9D9D9 ;
+}
