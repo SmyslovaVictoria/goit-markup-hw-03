@@ -62,7 +62,6 @@ img {
 
 /* --------- Шапка --------- */
 
-
 /* Text and Font for Logo and foter-logo */
 .logo, .footer-logo {
   font-family: Raleway, sans-serif;
@@ -198,11 +197,12 @@ img {
 
 .benefits-conteiner {
   display: flex;
+  flex-basis: calc(100% / 4 - 30px)
 }
 
-.section-benefits .benefits-item + .benefits-item {
+/* .section-benefits .benefits-item + .benefits-item {
 margin-left: 30px;
-}
+} */
 
 .section-benefits, .section-team {
   padding: 94px 215px;
@@ -390,6 +390,8 @@ margin-left: 30px;
 .content-info {
   margin-right: 30px;
   margin-bottom: 30px;
+  flex-basis: 370px;
+ 
 }
 
 .content-info:nth-child(3n) {
@@ -408,8 +410,10 @@ margin-left: 30px;
 .content-titel, .content-text {
   border-left: 1px solid #D9D9D9;
   border-right: 1px solid #D9D9D9;
+  
 }
 
 .content-text {
   border-bottom: 1px solid #D9D9D9 ;
 }
+
