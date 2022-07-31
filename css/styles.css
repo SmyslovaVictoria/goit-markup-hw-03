@@ -92,8 +92,8 @@ img {
 /* Main-nav */
 .header {
   border-bottom: 1px solid #ECECEC;
+  background: #FFFFFF;
 }
-
 .main-nav {
   display: flex;
   align-items: center;
@@ -329,6 +329,10 @@ margin-left: 30px;
 
 
 /* ------- Styles for portfolio------- */
+.main-portfolio {
+  background: #E5E5E5;
+}
+
 .section-button {
   cursor: pointer;
   font-family: 'Roboto';
