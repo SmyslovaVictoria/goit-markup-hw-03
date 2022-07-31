@@ -204,9 +204,9 @@ img {
   flex-basis: calc(100% / 4 - 30px)
 }
 
-/* .section-benefits .benefits-item + .benefits-item {
+.section-benefits .benefits-item + .benefits-item {
 margin-left: 30px;
-} */
+}
 
 .section-benefits, .section-team {
   padding: 94px 215px;
